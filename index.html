@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lilo - My Sister's Dog</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Menu Bar -->
+    <nav class="menu">
+        <a href="#lilo">Lilo</a>
+        <a href="#about">About Lilo</a>
+        <a href="#signup">Sign Up</a>
+    </nav>
+
+    <main>
+
+        <!-- Lilo Page -->
+        <section id="lilo">
+
+            <h1>This is my sister's dog</h1>
+
+            <h2>Her name is <span class="name">Lilo</span>.</h2>
+
+            <p>
+                Her name is spelled:
+                L, I, L, O.
+            </p>
+
+            <img src="IMG_0346.thumbnail.jpg" alt="A picture of Lilo, my sister's dog">
+
+            <p>
+                This is Lilo.
+            </p>
+
+            <p>
+                <a href="https://steffimitffuni.github.io/MyFirstWebApp/" class="visit-button">
+                    Visit my first webpage
+                </a>
+            </p>
+
+            <img src="IMG_0346.thumbnail.jpg" alt="A larger picture of Lilo, my sister's dog" width="500" height="600">
+
+            <p>
+                Here is another picture of Lilo, but this time it is
+                500 pixels by 600 pixels.
+            </p>
+
+            <p>
+                Her favorite drink is H<sub>2</sub>O.
+            </p>
+
+        </section>
+
+
+        <!-- About Lilo -->
+        <section id="about">
+
+            <h1>Lilo is a nice dog</h1>
+
+        </section>
+
+        <!-- Sign Up -->
+        <section id="signup">
+
+            <h1>Sign Up</h1>
+
+            <label for="email">Enter your email below:</label>
+
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <button type="button" onclick="showMessage()">
+                Sign Up
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+        <script>
+            function showMessage() {
+                document.getElementById("message").textContent =
+                    "This email sign up doesn't work yet.";
+            }
+        </script>
+
+</body>
+
+</html>
